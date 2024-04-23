@@ -1,0 +1,188 @@
+.main_conteiner{
+    display: flex;
+    flex-flow: column;/*посередине колонкой*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    
+    
+}
+
+.but_1{
+    margin: 60px; 
+}
+
+h1{
+    color: #fff;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 800;
+    /*text-align: center;*/
+}
+
+h2{
+    color: #fff;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+.portfolio_cards_wrapper{
+    display: flex;
+    background: linear-gradient(105.28deg, #AC5252 17.1%, #F28D8D 95.27%);
+
+}
+
+.portfolio_cards_wrapperDany{
+    display: flex;
+    background: linear-gradient(105.28deg, #932525 0.49%, #D59696 92.77%);
+
+}
+.portfolio_cards_wrapperOly{
+    display: flex;
+    background: linear-gradient(105.28deg, #AC5252 17.1%, #F28D8D 95.27%); 
+}
+
+.portfolio_cards_wrapperAnn{
+    display: flex;
+    background: linear-gradient(105.28deg, #932525 66.45%, #D59696 92.77%); 
+}
+
+.portfolio_cards_wrapperVany{
+    display: flex;
+    background: linear-gradient(105.28deg, #932525 66.45%, #D59696 92.77%); 
+}
+.portfolio_cards_wrapperabout{
+    display: flex;
+    background-color:transparent;
+
+}
+
+.strelka1{
+    display: flex;
+    text-align: left;
+}
+
+.strelka2{
+    display: flex;
+    text-align: right;
+}
+
+.card{
+    max-width: 80%;
+    margin: auto;
+   
+}
+
+.card-text{
+    max-width: 420px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin: 60px;
+   
+}
+.card-textabout{
+    max-width: 220px;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin: 60px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 501.43px;
+    height: 416px;
+    top: 140px;
+    margin: auto;
+    background: linear-gradient(90deg, #DA9999 0%, #BD1818 91%);
+    box-shadow: 10px 14px 10.4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+
+}
+
+#fio{
+box-sizing: border-box;
+width: 420px;
+height: 34px;
+margin-top: 10px;
+margin-left: 40px;
+border: 1px solid #664949;
+background-color:transparent;
+}
+
+#phone{
+box-sizing: border-box;
+width: 420px;
+height: 34px;
+margin-top: 10px;
+margin-left: 40px;
+border: 1px solid #664949;
+background-color:transparent;
+}
+
+#email{
+    box-sizing: border-box;
+    width: 420px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 1px solid #664949;
+    background-color:transparent;
+
+}
+#message{
+    box-sizing: border-box;
+    width: 420px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 1px solid #664949;
+    background-color:transparent;
+}
+
+
+.but2{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+
+.noname{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-top: 20px;
+ }
+
+
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+}
+
+
+.cardabout{
+    display: flex;
+    flex-flow: column;/*посередине колонкой*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
