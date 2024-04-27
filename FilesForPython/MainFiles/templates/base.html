@@ -14,8 +14,23 @@
     <meta name="theme-color" content="#932525">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+    <script src="static/clickMenu.js"></script>
 </head>
-<body>
+<body class="body">
+<nav class="menu">
+        <div class="title_menu"><h1>НАВИГАЦИЯ</h1></div>
+        <div class="list_menu">
+            <ul><a href="/">Стартовая страница</a></ul>
+            <ul><a href="/about">О нас</a></ul>
+            <ul><a href="/cardKate">О Кате</a></ul>
+            <ul><a href="/cardVany">О Ване</a></ul>
+            <ul><a href="/cardDany">О Дане</a></ul>
+            <ul><a href="/cardOly">Об Оле</a></ul>
+            <ul><a href="/cardAnn">Об Ане</a></ul>
+            <ul><a href="/zayivka">Оставить заявку</a></ul>
+        </div>
+    </nav>
 {% block body%}{% endblock %}
 </body>
 </html>
